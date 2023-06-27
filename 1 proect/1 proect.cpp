@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <iostream>
 #include <omp.h>
 #include <ppl.h>
 using namespace std;

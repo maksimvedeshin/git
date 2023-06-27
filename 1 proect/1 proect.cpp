@@ -8,7 +8,7 @@ int main()
 	srand(time(0));
 	setlocale(LC_ALL, "rus");
 	cout << "Количество доступных потоков: " << omp_get_num_procs() << "\n";
-	const int n = 10e6;
+	const int n = 10e8;
 	float* Asgl = new float[n];
 	double* Adbl = new double[n];
 	for (int i = 0; i < n; ++i)

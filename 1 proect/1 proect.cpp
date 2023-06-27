@@ -203,7 +203,7 @@ int main()
 		}
 	}
 	t4 = clock();
-	cout << "Время умножения матриц double: " << t4 - t3 << "\n\n";
+	cout << "Время суммирования массива double: " << t4 - t3 << "\n";
 	const int n2 = 2;
 	float** Bsgl = new float* [n];
 	for (int i = 0; i < n; ++i)
